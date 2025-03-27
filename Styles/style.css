@@ -13,15 +13,13 @@ header {
 }
 
 /* Navigation Bar */
-nav {
+
+/* Navigation Menu */
+nav ul {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
     justify-content: space-between;
-}
-
-/* Navigation Menu */
-nav ul {
     list-style: none;
     align-items: center;
     gap: 20px;
@@ -76,15 +74,25 @@ nav ul li a:hover {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 600px) {
+
     /*Navigation*/
-    nav  {
-        flex-wrap: wrap;
-    }
-    nav ul li {
-        width: 100%;
-        display: block;
-    }
+    @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center; /* Centers the items */
+            width: 100%;
+        }
+    
+        nav ul li {
+            display: block; /* Ensures each list item takes full width */
+            width: 100%;
+            text-align: center;
+        }
+    
+        nav ul li a {
+            display: block;
+            width: 100%; /* Makes the links fill the available space */
+        }    
 }
 
 /* Existing Styles */
