@@ -301,6 +301,7 @@ footer img:hover {
     }
     .aboutus img {
         max-width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -325,7 +326,7 @@ footer img:hover {
 }
 
 .team-member {
-    border: 1px solid #ddd;
+    border: 1px solid #73c2d2;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -337,4 +338,7 @@ footer img:hover {
     object-fit: cover;
     transition: transform 0.3s ease;
     border-radius: 25px;
+}
+.aboutus img {
+    object-fit: cover;
 }
