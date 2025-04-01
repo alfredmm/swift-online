@@ -41,6 +41,7 @@ nav ul {
 nav img {
     height: 50px;
     padding: 5px;
+    border-radius: 20px;
 }
 
 /* Navigation Links */
