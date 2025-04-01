@@ -356,3 +356,7 @@ footer img:hover {
     transition: background-color 0.3s ease;
     width: 100%;
 }
+.aboutus{
+    background-image: url('../Images/about.JPG');
+    object-fit: cover;
+}
