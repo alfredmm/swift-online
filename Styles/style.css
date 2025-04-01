@@ -343,9 +343,6 @@ footer img:hover {
     padding: 10px;
     font-size: larger;
 }
-.aboutus img {
-    object-fit: cover;
-}
 .team-member button {
     background-color: #a7d9d6;
     border: 1px solid orange;
@@ -358,5 +355,11 @@ footer img:hover {
 }
 .aboutus{
     background-image: url('../Images/about.JPG');
+    background-repeat: no-repeat;
+    background-color: orange;
+    color: white;
+}
+.aboutus img {
     object-fit: cover;
+    fill-opacity: 0.5;
 }
