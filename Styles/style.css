@@ -41,7 +41,7 @@ nav ul {
 nav img {
     height: 50px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 20;
 }
 
 /* Navigation Links */
@@ -293,7 +293,7 @@ footer img:hover {
 /* Responsive Design for Products */
 @media (max-width: 768px) {
     .products {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     
     .offer {
