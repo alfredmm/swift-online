@@ -358,6 +358,7 @@ footer img:hover {
     background-repeat: no-repeat;
     background-color: orange;
     color: white;
+    margin: 12px;
 }
 .aboutus img {
     object-fit: fill;
